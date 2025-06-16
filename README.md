@@ -99,6 +99,7 @@ cora_ml,dblp,graphsage,0,100,avg,0.7974
 - Make sure to delete or rename old shadow model checkpoints to avoid silent reuse.
 - All models are trained with fixed hyperparameters as used in the original paper.
 - The script will automatically skip training if the model file already exists.
+- The core attack logic is implemented in attack.py, and the results can be viewed and analyzed in Result.ipynb.
 
 ## Contact
 
